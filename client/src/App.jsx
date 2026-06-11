@@ -1,9 +1,11 @@
 import './App.css'
+import EmployeeList from './pages/EmployeeList'
 
 function App() {
   return (
     <div>
-      <h1>Employee Directory</h1>
+      {/* Main employee directory page */}
+      <EmployeeList />
     </div>
   )
 }
